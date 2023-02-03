@@ -1,5 +1,5 @@
 # Build Gradle Catalog
-#### Little project to lear how gradle catalog works
+#### Little project to learn how gradle catalog works
 
 #
 #
