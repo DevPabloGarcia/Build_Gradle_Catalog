@@ -48,14 +48,10 @@ android {
 
 dependencies {
 
-    implementation libs.androidx.core.ktx
-    implementation libs.androidx.lifecycle.viewmodel.ktx
-    implementation libs.androidx.preference.ktx
+    implementation libs.bundles.androidx
 
-    /** Retrofit */
     implementation libs.bundles.retrofit
 
-    /** Compose */
     implementation libs.bundles.androidx.compose
 
     testImplementation 'junit:junit:4.13.2'
