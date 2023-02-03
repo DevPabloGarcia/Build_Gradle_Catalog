@@ -1,10 +1,42 @@
 [versions]
 androidx-core = "1.7.0"
 preferences-ktx = "1.1.0"
-material = "1.1.1"
+life-cycle = "2.3.1"
 
+## Retrofit
+retrofit = "2.9.0"
+converter-gson = "2.9.0"
+
+## Compose
+compose = "1.1.1"
+activity-compose = "1.5.1"
 
 [libraries]
 androidx-core-ktx = { module = "androidx.core:core-ktx", version.ref = "androidx-core" }
 androidx-preference-ktx = { module = "androidx.preference:preference-ktx", version.ref = "preferences-ktx" }
-androidx-compose-material = { module = "androidx.compose.material:material", version.ref = "material" }
+androidx-lifecycle-viewmodel-ktx = { module = "androidx.lifecycle:lifecycle-viewmodel-ktx", version.ref = "life-cycle" }
+
+## Retrofit
+retrofit = { module = "com.squareup.retrofit2:retrofit", version.ref = "retrofit" }
+converter-gson = { module = "com.squareup.retrofit2:converter-gson", version.ref = "converter-gson" }
+
+## Compose
+androidx-compose-material = { module = "androidx.compose.material:material", version.ref = "compose" }
+androidx-compose-activity = { module = "androidx.activity:activity-compose", version.ref = "activity-compose" }
+androidx-compose-ui = { module = "androidx.compose.ui:ui", version.ref = "compose" }
+androidx-compose-ui-tooling-preview = { module = "androidx.compose.ui:ui-tooling-preview", version.ref = "compose" }
+
+[bundles]
+
+androidx-compose = [
+    "androidx-compose-material",
+    "androidx-compose-activity",
+    "androidx-compose-ui",
+    "androidx-compose-ui-tooling-preview",
+]
+
+retrofit = [
+    "retrofit",
+    "converter-gson",
+]
+
