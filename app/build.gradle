@@ -49,10 +49,8 @@ android {
 dependencies {
 
     implementation libs.bundles.androidx
-
-    implementation libs.bundles.retrofit
-
     implementation libs.bundles.androidx.compose
+    implementation libs.bundles.retrofit
 
     testImplementation 'junit:junit:4.13.2'
 
