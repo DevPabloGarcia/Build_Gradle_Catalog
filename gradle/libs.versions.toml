@@ -7,4 +7,4 @@ material = "1.1.1"
 [libraries]
 androidx-core-ktx = { module = "androidx.core:core-ktx", version.ref = "androidx-core" }
 androidx-preference-ktx = { module = "androidx.preference:preference-ktx", version.ref = "preferences-ktx" }
-androidx-compose-ma3terial = { module = "androidx.compose.material:material", version.ref = "material" }
+androidx-compose-material = { module = "androidx.compose.material:material", version.ref = "material" }
