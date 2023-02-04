@@ -5,6 +5,10 @@ compose = "1.3.1"
 converter-gson = "2.9.0"
 life-cycle = "2.6.0-alpha05"
 preferences-ktx = "1.2.0"
+plugin-android = "7.3.1"
+plugin-kotlin = "1.6.10"
+plugin-manes-version = "0.41.0"
+plugin-catalog-update = "0.7.0"
 retrofit = "2.9.0"
 
 [libraries]
@@ -34,3 +38,10 @@ retrofit = [
     "converter-gson",
     "retrofit",
 ]
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "plugin-android" }
+android-library = { id = "com.android.library", version.ref = "plugin-android" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "plugin-kotlin" }
+manes-version = { id = "com.github.ben-manes.versions", version.ref = "plugin-manes-version" }
+version-catalog-update = { id = "nl.littlerobots.version-catalog-update", version.ref = "plugin-catalog-update" }

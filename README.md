@@ -3,8 +3,8 @@
 
 #
 #
-| Libraries | README |
-| ------ | ------ |
+| Libraries                     | README                                                                  |
+|-------------------------------|-------------------------------------------------------------------------|
 | Version catalog update plugin | [Github](https://github.com/littlerobots/version-catalog-update-plugin) |
 
 #### How to test it
